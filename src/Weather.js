@@ -6,15 +6,23 @@ export default function Weather() {
     <div className="Weather">
       <form>
         <div className="row">
-          <div className="col-9">
+          <div
+            className="col-9
+  "
+          >
             <input
               type="search"
               placeholder="Enter a city..."
-              className="form"
+              className="search-form"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100 button-form"
+            />
           </div>
         </div>
       </form>
@@ -33,11 +41,11 @@ export default function Weather() {
             data-atf="1"
             data-frt="0"
           />
-          6°C
+          <span className="main-degree">6 </span>
+          <span className="celcius-degree">°C</span>
         </div>
         <div className="col-6">
           <ul>
-            <li>Precipitation: 2%</li>
             <li>Humiduty: 58%</li>
             <li>Wind: 3mph</li>
           </ul>

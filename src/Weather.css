@@ -1,3 +1,36 @@
 .Weather {
-  border: 1px solid black;
+  border: 1px solid rgb(57, 52, 52);
+  border-radius: 4px;
+}
+.Weather form {
+  padding: 20px;
+}
+
+.Weather .search-form {
+  width: 400px;
+}
+.Weather .button-form {
+  font-size: 13px;
+}
+
+.Weather h1 {
+  font-size: 34px;
+  padding-left: 20px;
+}
+.Weather ul {
+  list-style: none;
+  padding: 0 20px;
+}
+.Weather img {
+  position: relative;
+  top: -16px;
+  padding-left: 20px;
+}
+.Weather .main-degree {
+  font-size: 64px;
+}
+.Weather .celcius-degree {
+  position: relative;
+  top: -35px;
+  left: -15px;
 }

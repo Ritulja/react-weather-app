@@ -1,1 +1,11 @@
-
+.App .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #878787;
+}
+.App footer {
+  font-size: 12px;
+  padding-top: 10px;
+}
