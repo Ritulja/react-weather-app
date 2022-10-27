@@ -21,13 +21,12 @@
   list-style: none;
   padding: 0 20px;
 }
-.Weather img {
-  position: relative;
-  top: -16px;
-  padding-left: 20px;
+.Weather canvas {
+  padding-left: 0px;
 }
 .Weather .main-degree {
   font-size: 64px;
+  margin-left: 10px;
 }
 .Weather .celcius-degree {
   position: relative;

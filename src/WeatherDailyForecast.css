@@ -1,0 +1,8 @@
+.WeatherDailyForecast {
+  text-align: center;
+  margin: 10px;
+}
+
+.WeatherDailyForecast-day {
+  margin: 0;
+}
