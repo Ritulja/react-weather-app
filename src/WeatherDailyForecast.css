@@ -1,8 +1,14 @@
 .WeatherDailyForecast {
   text-align: center;
-  margin: 10px;
 }
 
 .WeatherDailyForecast-day {
-  margin: 0;
+  padding-left: 20px;
+  margin: 10px;
+}
+.WeatherDailyForecast-max {
+  padding-left: 25px;
+}
+.WeatherDailyForecast-min {
+  opacity: 0.8;
 }

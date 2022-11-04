@@ -22,7 +22,7 @@
   padding: 0 20px;
 }
 .Weather canvas {
-  padding-left: 0px;
+  padding-left: 20px;
 }
 .Weather .main-degree {
   font-size: 64px;
